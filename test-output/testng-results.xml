@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="45862" started-at="2016-08-04T07:13:19Z" finished-at="2016-08-04T07:14:05Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="45862" started-at="2016-08-04T07:13:19Z" finished-at="2016-08-04T07:14:05Z">
+      <class name="com.google.Test5">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.google.Test5@41fecb8b]" name="launchBrowser" is-config="true" duration-ms="16576" started-at="2016-08-04T12:43:20Z" finished-at="2016-08-04T12:43:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="verifyHomePageTitle()[pri:0, instance:com.google.Test5@41fecb8b]" name="verifyHomePageTitle" is-config="true" duration-ms="61" started-at="2016-08-04T12:43:36Z" finished-at="2016-08-04T12:43:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitle -->
+        <test-method status="PASS" signature="register()[pri:1, instance:com.google.Test5@41fecb8b]" name="register" duration-ms="3822" started-at="2016-08-04T12:43:36Z" finished-at="2016-08-04T12:43:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.google.Test5@41fecb8b]" name="afterMethod" is-config="true" duration-ms="127" started-at="2016-08-04T12:43:40Z" finished-at="2016-08-04T12:43:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="verifyHomePageTitle()[pri:0, instance:com.google.Test5@41fecb8b]" name="verifyHomePageTitle" is-config="true" duration-ms="9320" started-at="2016-08-04T12:43:40Z" finished-at="2016-08-04T12:43:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitle -->
+        <test-method status="PASS" signature="support()[pri:2, instance:com.google.Test5@41fecb8b]" name="support" duration-ms="8575" started-at="2016-08-04T12:43:49Z" finished-at="2016-08-04T12:43:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- support -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.google.Test5@41fecb8b]" name="afterMethod" is-config="true" duration-ms="45" started-at="2016-08-04T12:43:58Z" finished-at="2016-08-04T12:43:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="terminateBrowser()[pri:0, instance:com.google.Test5@41fecb8b]" name="terminateBrowser" is-config="true" duration-ms="7301" started-at="2016-08-04T12:43:58Z" finished-at="2016-08-04T12:44:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminateBrowser -->
+      </class> <!-- com.google.Test5 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
