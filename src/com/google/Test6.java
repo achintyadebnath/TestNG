@@ -21,6 +21,7 @@ public class Test6 {
 	
 	@BeforeTest
 	public void launchBrowser() {
+		driver.manage().window().maximize();
 		driver.get(baseURL);
 	}
 
@@ -40,7 +41,7 @@ public class Test6 {
 		driver.findElement(By.name("password")).sendKeys(s1.getRow(6).getCell(1).getStringCellValue());
 		driver.findElement(By.name("login")).click();
 		
-		expected = "Find a Flight: Mercury Tours: ";
+		expected = "Find a Flight: Mercury Tours:";
 		actual = driver.getTitle();
 		
 		Assert.assertEquals(actual, expected);
@@ -50,7 +51,7 @@ public class Test6 {
 
 	@AfterMethod
 	public void afterMethod() {
-		driver.findElement(By.name("SIGN-OFF")).click();
+		driver.findElement(By.linkText("SIGN-OFF")).click();
 		
 		expected = "Sign-on: Mercury Tours";
 		actual = driver.getTitle();
